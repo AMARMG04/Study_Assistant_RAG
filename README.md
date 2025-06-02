@@ -45,7 +45,7 @@ Before you begin, ensure you have the following installed:
     Open your terminal or command prompt and clone the project repository:
 
     ```bash
-    git clone [https://github.com/your-username/Study_Assistant_RAG.git](https://github.com/your-username/Study_Assistant_RAG.git)
+    git clone "https://github.com/AMARMG04/Study_Assistant_RAG.git"
     cd Study_Assistant_RAG
     ```
     *(Remember to replace `your-username` with your actual GitHub username)*
@@ -73,8 +73,8 @@ Before you begin, ensure you have the following installed:
     Ensure your Ollama server is running in the background (it typically starts automatically after installation). Then, download the required LLM and embedding models:
 
     ```bash
-    ollama pull gemma3:12b-it
-    ollama pull nomic-embed-text
+    ollama pull gemma3:12b
+    ollama pull nomic-embed-text:v1.5
     ```
     *(You can run `ollama list` in your terminal to verify that the models have been successfully downloaded.)*
 
