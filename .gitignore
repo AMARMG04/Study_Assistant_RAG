@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit cache and generated files
+.streamlit/
+streamlit_app.py:91: LangChainDeprecationWarning
+streamlit_app.py:105: LangChainDeprecationWarning
+streamlit_app.py:121: LangChainDeprecationWarning
+
+# Local ChromaDB (important for your project!)
+chroma_db/
+
+# Uploaded data (temporary storage)
+uploaded_data/
+
+# Ollama cache or specific model files (if they end up in your project dir)
+.ollama/
+
+# Other common ignore patterns
+*.log
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
